@@ -5,7 +5,6 @@ const textField = document.getElementById('searchTextField');
 function initMap() {
     const center = new google.maps.LatLng(60.223385, 24.805091);
     const zoom = 10;
-
     const setting = {
         center,
         zoom,
